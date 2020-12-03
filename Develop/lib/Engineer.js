@@ -6,10 +6,10 @@ constructor(name,id,email,github){
     super(name,id,email);
     this.github=github;
 }
-role(){
+getRole(){
     return "Engineer";
 }
-github(){
+getGithub(){
     return this.github;
 }
 
