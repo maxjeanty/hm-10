@@ -113,11 +113,11 @@ function addEmployee() {
     console.log(" other members", moreMembers);
 
     if (moreMembers) {
-      console.log(moreMembers);
+      
       inquiries();
     }
   }).catch(err => {
-    console.log("Error adding members", err);
+    
     throw err;
   });
 }
