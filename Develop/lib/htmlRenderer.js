@@ -47,6 +47,7 @@ const renderEngineer = engineer => {
   appndHtml
   
   return template;
+
 };
 
 const renderIntern = intern => {
@@ -57,6 +58,7 @@ const renderIntern = intern => {
   template = replacePlaceholders(template, "id", intern.getId());
   template = replacePlaceholders(template, "school", intern.getSchool());
   appndHtml
+  return template;
 };
 
 const renderMain = html => {
